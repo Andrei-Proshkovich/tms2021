@@ -7,7 +7,7 @@ public class Main {
         Computer c = new Computer("sda", "dsf", "fds");
         System.out.println(c);
         c.on();
-        c.on();
+
 
 
     }

@@ -28,9 +28,7 @@ public class Computer {
 
             Scanner sc = new Scanner(System.in);
             int a = sc.nextInt();
-
             if (isBurned=false){
-
             if (a == r.nextInt(1)) {
             off();
             isBurned=false;
@@ -41,7 +39,6 @@ public class Computer {
                 isBurned=true;
                 off();
 
-
             }
 
             else if (a>1){
@@ -50,14 +47,12 @@ public class Computer {
                 isBurned =true;
             }
 
-
         }
             else {
                 isBurned=true;
                 System.out.println("computer sgorel");
             }
     }
-
 
 
     private  void off() {
