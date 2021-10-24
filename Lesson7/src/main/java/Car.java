@@ -7,7 +7,7 @@ public class Car {
     private boolean zavedena;
 
     private boolean move;
-    public Benzobak benzobak;
+    public GasTank benzobak;
 
     public static final int RASHOD = 5;
 
@@ -32,7 +32,6 @@ public class Car {
         }
     }
 
-
     public class Engine {
         private int type;
 
@@ -52,8 +51,8 @@ public class Car {
 
     }
 
-    public class Benzobak {
-        private int volumeBenzobak;
+    public class GasTank {
+        private int volumeGastank;
 
         public int nowBenzin(int now) {
 
